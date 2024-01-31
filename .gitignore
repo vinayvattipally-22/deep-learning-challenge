@@ -1,0 +1,26 @@
+# .gitignore file for TensorFlow Keras Neural Network Charity Analysis
+
+# Python-specific
+*.pyc
+__pycache__/
+venv/
+env/
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+
+# TensorFlow and Keras model checkpoints and logs
+logs/
+saved_models/
+
+# Other system-specific files/directories
+.DS_Store
+Thumbs.db
+
+
+# gitignore is created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,visualstudiocode
